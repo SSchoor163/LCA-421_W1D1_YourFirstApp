@@ -1,0 +1,10 @@
+div{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: (cadetblue, saturation, lighslahtness, .3) 
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: dimgrey;
+}

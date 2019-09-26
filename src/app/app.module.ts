@@ -8,6 +8,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 import { ShoppingCartCalculatorComponent } from './shopping-cart-calculator/shopping-cart-calculator.component';
+import { ProductPurchaseComponent } from './product-purchase/product-purchase.component';
 
 @NgModule({
   imports: [
@@ -22,7 +23,8 @@ import { ShoppingCartCalculatorComponent } from './shopping-cart-calculator/shop
     TopBarComponent,
     ProductListComponent,
     ProductAlertsComponent,
-    ShoppingCartCalculatorComponent
+    ShoppingCartCalculatorComponent,
+    ProductPurchaseComponent
   ],
   bootstrap: [ AppComponent ]
 })

@@ -9,6 +9,7 @@
     <p *ngIf="product.description">
         Description: {{product.description}}
     </p>
+    <app-product-purchase [product]="product" (purchase)="onPurchase(product.price)"></app-product-purchase> 
     <button (click)="share()">Share</button>
 
     <app-product-alerts [product]="product" (notify)="onNotify()"></app-product-alerts>
